@@ -1,8 +1,5 @@
-package filereader;
-import java.io.FileReader;
-public class FileReaderExample1 
-{
-    public class Employee
+import csv
+class Employee
     {
         private String name;
         private int age;
@@ -67,14 +64,3 @@ public class Main
             System.out.println("5. Exit");
         }
     }
-    FileReader fr=new FileReader("D:\\testout2.txt");
-    int i;
-    while((i=fr.read())!=-1)
-    System.out.print((char)i);
-    fr.close();
-}
-   
-   
-
-
-
